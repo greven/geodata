@@ -1,0 +1,26 @@
+{
+  "3166-1": [
+    {
+      "alpha_2": "AW",
+      "alpha_3": "ABW",
+      "name": "Aruba",
+      "numeric": "533",
+      "official_name": "Aruba"
+    },
+    {
+      "alpha_2": "MM",
+      "alpha_3": "MMR",
+      "flag": "🇲🇲",
+      "name": "Myanmar",
+      "numeric": "104"
+    },
+    {
+      "alpha_2": "PT",
+      "alpha_3": "PRT",
+      "flag": "🇵🇹",
+      "name": "Portugal",
+      "numeric": "620",
+      "official_name": "Portuguese Republic"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+#Country	ISO	ISO3	ISONumeric	fips	Country	Capital	Area(in sq km)	Population	Continent	tld	CurrencyCode	CurrencyName	Phone	Postal Code Format	Postal Code Regex	Languages	geonameid	neighbours	EquivalentFipsCode
+AD	AND	020	AN	Andorra	Andorra la Vella	468	77006	EU	.ad	EUR	Euro	376	AD###	^(?:AD)*(\d{3})$	ca	3041565	ES,FR	
+US	USA	840	US	United States	Washington	9629091	327167434	NA	.us	USD	US Dollar	1	#####-####	^\d{5}(-\d{4})?$	en-US,es-US,haw,fr	6252001	CA,MX,CU	
+PT	PRT	620	PO	Portugal	Lisbon	92391	10305598	EU	.pt	EUR	Euro	351	####-###	^\d{4}-\d{3}$	pt-PT,gl	2264397	ES	
+AN	ANT	530	NT	Netherlands Antilles	Willemstad	960	300000	NA	.an	ANG	Guilder	599			nl-AN,en,es	8505032	GP	
+XK	XKX	0	KV	Kosovo	Pristina	10908	1845300	EU		EUR	Euro				sq,sr	831053	RS,AL,MK,ME	

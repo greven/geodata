@@ -1,0 +1,15 @@
+# The directory Mix will write compiled artifacts to.
+/_build/
+
+# The directory Mix downloads your dependencies sources to.
+/deps/
+
+# Locale data downloaded by `mix localize.download_locales`.
+/priv/
+
+# If the VM crashes, it generates a dump.
+erl_crash.dump
+
+# Built archive artifacts.
+*.ez
+geodata_integration-*.tar

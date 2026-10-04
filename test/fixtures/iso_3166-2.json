@@ -1,0 +1,7 @@
+{
+  "3166-2": [
+    { "code": "AD-02", "name": "Canillo", "type": "Parish" },
+    { "code": "PT-11", "name": "Lisboa", "type": "District" },
+    { "code": "US-CA", "name": "California", "type": "State" }
+  ]
+}

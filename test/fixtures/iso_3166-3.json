@@ -1,0 +1,20 @@
+{
+  "3166-3": [
+    {
+      "alpha_2": "AN",
+      "alpha_3": "ANT",
+      "alpha_4": "ANHH",
+      "name": "Netherlands Antilles",
+      "numeric": "530",
+      "withdrawal_date": "2010-12-15"
+    },
+    {
+      "alpha_2": "BU",
+      "alpha_3": "BUR",
+      "alpha_4": "BUMM",
+      "name": "Burma, Socialist Republic of the Union of",
+      "numeric": "104",
+      "withdrawal_date": "1989-12-05"
+    }
+  ]
+}
