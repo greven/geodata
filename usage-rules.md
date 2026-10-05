@@ -47,6 +47,11 @@ using the API; these rules only cover the parts agents most often get wrong.
 - Ecto storage needs `ecto_sql` + a driver, `config :geodata, GeoData.Storage.Ecto,
 repo: MyApp.Repo`, and the bundled migration
   `GeoData.Storage.Ecto.Migrations.up()`.
+- `mix geodata.install --repo MyApp.Repo [--driver postgres|mysql|sqlite]` (or
+  `mix igniter.install geodata`) automates the Ecto setup: adds `ecto_sql` and the
+  driver, writes `storage: GeoData.Storage.Ecto` + `search: GeoData.Search.Ecto`
+  and the repo config, and generates the migration. It never downloads or ingests
+  data. Requires Igniter.
 
 ## Search
 

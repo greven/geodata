@@ -58,6 +58,7 @@ defmodule GeoData.MixProject do
       {:ecto, "~> 3.14", optional: true},
       {:ecto_sql, "~> 3.14", optional: true},
       {:ecto_sqlite3, "~> 0.25", only: :test, optional: true},
+      {:igniter, "~> 0.6 and >= 0.6.16", optional: true},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false, optional: true},
       {:git_ops, "~> 2.12", only: :dev, runtime: false}
     ]

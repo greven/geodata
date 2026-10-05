@@ -63,6 +63,17 @@ def deps do
 end
 ```
 
+The default in-memory `GeoData.Storage.ETS` adapter needs no setup: add the
+dependency and run the [data tasks](#datasets). For the database-backed
+`GeoData.Storage.Ecto` setup, an [Igniter](https://hexdocs.pm/igniter) installer
+adds the driver dependencies, writes the config and generates the migration:
+
+```shell
+mix igniter.install geodata --repo MyApp.Repo
+# or, with geodata already in your deps:
+mix geodata.install --repo MyApp.Repo --driver postgres
+```
+
 ## Datasets
 
 | Tier      | Contents                                   |
@@ -635,11 +646,13 @@ builds no index, so text searches fall back to a disk scan per query, which suit
 id lookups on a RAM-constrained machine.
 
 For a database-backed store, use `GeoData.Storage.Ecto` with any Ecto SQL repo
-(PostgreSQL, MySQL, SQLite, ...). Add `ecto_sql` and a driver for your backend,
+(PostgreSQL, MySQL, SQLite, ...). The [installer](#installation) does the steps
+below for you; to wire it by hand, add `ecto_sql` and a driver for your backend,
 then:
 
 ```elixir
 config :geodata, storage: GeoData.Storage.Ecto
+config :geodata, search: GeoData.Search.Ecto
 config :geodata, GeoData.Storage.Ecto, repo: MyApp.Repo
 ```
 
